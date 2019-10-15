@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(0, 11, 70), rgb(95, 220, 236));
+    color: white;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+}
+
+.author-info{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 18px;
+}
+.location,
+.temperature{
+    height: 30vh;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature{
+    flex-direction: column;
+}
+
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+span{
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.my-hr{
+    width: 50%;
+}
+
+.degree-section{
+    margin: 100px;
+    font-size: 30px;
+}
+
+.degree-section h2{
+    font-size: 40px;
+}
